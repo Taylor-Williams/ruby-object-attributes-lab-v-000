@@ -13,6 +13,6 @@ class Person
   end
 
   def job
-    "#{job_title}"
+    "#{job}"
   end
 end
