@@ -5,7 +5,7 @@ class Person
   end
 
   def name
-    "#{name}"
+    @name
   end
 
   def job=(job)
@@ -13,6 +13,6 @@ class Person
   end
 
   def job
-    "#{job}"
+    @job
   end
 end
